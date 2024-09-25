@@ -1,0 +1,89 @@
+.red-hat-text {
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/bg-stars.svg);
+    background-color: hsl(235, 16%, 14%);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #fff;
+    margin-left: 510px;
+}
+
+.img1{
+    position: relative;
+    width: 1872px;
+    height: 220px;
+}
+
+.container{
+    width: 1400px;
+    height: 100vh;   
+    margin-top: 120px;
+}
+
+.time-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-top: 290px;
+}
+
+.box{
+    width: 400px;
+    height: 250px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.576);
+    font-size: 24px;
+}
+
+.icon-div{
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+}
+
+.icons{
+    width: 30px;
+    margin-left: 40px;
+}
+
+.date{
+    position: absolute;
+    display: flex;
+    gap: 300px;
+    font-size: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: hsl(345, 95%, 68%);
+}
